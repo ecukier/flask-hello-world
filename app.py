@@ -37,7 +37,7 @@ def db_create():
 
 
 @app.route('/db_insert')
-def db_create():
+def db_insert():
     conn = psycopg.connect("postgresql://flask_hello_world_db_3tcd_user:plLtvyBCNtZlopRpBONqG2naXcFO0nQv@dpg-d24q21ali9vc73eigphg-a/flask_hello_world_db_3tcd")
     cur = conn.cursor()
 
